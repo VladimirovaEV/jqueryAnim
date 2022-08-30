@@ -1,7 +1,9 @@
 .slider {
     height: 400px;
 }
-
+.slider-container {
+    position: relative;
+}
 .slider__img {
     object-fit: cover;
     height: 100%;
@@ -29,6 +31,3 @@
     left: -5px;
 }
 
-.slider__container {
-    position: relative;
-}
